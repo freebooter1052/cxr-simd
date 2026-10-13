@@ -1,0 +1,13 @@
+kernel,variant,param_n,latency_us_mean,speedup_vs_scalar
+dot_int8,neon,256,0.381,1.34x
+dot_int8,scalar,256,0.509,1.00x
+dot_int8,neon,4096,4.180,1.35x
+dot_int8,scalar,4096,5.655,1.00x
+depthwise_conv3x3,neon,34x34,12.535,3.21x
+depthwise_conv3x3,scalar,34x34,40.183,1.00x
+depthwise_conv3x3,neon,18x18,4.434,2.17x
+depthwise_conv3x3,scalar,18x18,9.600,1.00x
+pointwise_gemm,neon,49x16x96,137.566,1.42x
+pointwise_gemm,scalar,49x16x96,195.193,1.00x
+pointwise_gemm,neon,196x32x96,1027.950,1.30x
+pointwise_gemm,scalar,196x32x96,1338.363,1.00x

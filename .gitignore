@@ -1,1 +1,10 @@
 /dataset
+__pycache__/
+*.py[cod]
+build/
+build_arm64/
+build_x86/
+*.so
+*.o
+*.a
+.vscode/

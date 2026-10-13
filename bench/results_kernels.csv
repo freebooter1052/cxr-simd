@@ -1,0 +1,7 @@
+kernel,variant,param,latency_us
+dot_int8,numpy_scalar,N=256,1.581
+dot_int8,numpy_scalar,N=4096,5.366
+depthwise_conv3x3,numpy_scalar,34x34,2988.319
+depthwise_conv3x3,numpy_scalar,18x18,745.515
+pointwise_gemm,numpy_scalar,49x16x96,35.461
+pointwise_gemm,numpy_scalar,196x32x96,236.817
